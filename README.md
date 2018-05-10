@@ -3,6 +3,8 @@
 
 ![image](https://github.com/baimouren/Spring_boot/blob/master/SpringBoot01/WebContent/image/book/131357bubmb45b95evy454.jpg)
 
+![image](https://www.ckook.com/data/attachment/forum/201711/21/131357bubmb45b95evy454.jpg)
+
 在当今Java EE 开发中，Spring 框架是当之无愧的王者。而Spring Boot 是Spring 主推的基于“习惯优于配置”的原则，让你能够快速搭建应用的框架，从而使得Java EE 开发变得异常简单。本书从Spring 基础、Spring MVC 基础讲起，从而无难度地引入Spring Boot 的学习。涵盖使用Spring Boot 进行Java EE 开发的绝大数应用场景，包含：Web 开发、数据访问、安全控制、批处理、异步消息、系统集成、开发与部署、应用监控、分布式系统开发等。当你学完本书后，你将能使用Spring Boot 解决Java EE 开发中所遇到的绝大多数问题。 
 
 作译者
