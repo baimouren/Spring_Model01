@@ -5,7 +5,7 @@ import javax.annotation.PreDestroy;
 
 public class JSR250WayService {
 
-    // ¹¹Ôìº¯ÊıÖ´ĞĞÍêºóÖ´ĞĞ
+    // æ„é€ å‡½æ•°æ‰§è¡Œåæ‰§è¡Œ
     @PostConstruct
     public void init() {
         System.out.println("jsr250-init-mehod");
@@ -13,10 +13,10 @@ public class JSR250WayService {
 
     public JSR250WayService() {
         super();
-        System.out.println("³õÊ¼»¯¹¹Ôìº¯Êı-JSR250Service");
+        System.out.println("åˆå§‹åŒ–æ„é€ å‡½æ•°-JSR250Service");
     }
 
-    // BeanÏú»ÙÖ®Ç°Ö´ĞĞ
+    // Beané”€æ¯ä¹‹å‰æ‰§è¡Œ
     @PreDestroy
     public void destroy() {
         System.out.println("jsr250-destroy-mehod");

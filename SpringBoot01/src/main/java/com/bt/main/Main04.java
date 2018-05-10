@@ -8,7 +8,7 @@ import com.bt.service.service04.JSR250WayService;
 
 public class Main04 {
     public static void main(String[] args) {
-        // 2.3 Bean的初始化和销毁
+        // 2.3 Bean碌脛鲁玫脢录禄炉潞脥脧煤禄脵
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(PrePostConfig.class);
 
         BeanWayService beanWayService = context.getBean(BeanWayService.class);
