@@ -9,7 +9,7 @@
 汪云飞，开源技术专家，现任职微璟技术CTO，拥有10年以上的JavaEE开发经验。对开源Java框架(Spring、Hibernate/JPA、Spring Boot)、开源GIS(GeoServer、OpenLayers)，开源云计算解决方案(IaaS:ClouStack、OpenStack；PaaS：Apache Mesos、Deis、Docker)颇有研究。其撰写的技术博客被大量的阅读和转载。 
 
 
-目录 <br>
+目录 <br><br>
 第一部分 点睛Spring 4.x <br>
 第1 章 Spring 基础 ........................................2 <br>
 1.1 Spring 概述 ........................................ 2 <br>
@@ -30,9 +30,9 @@
 3.6 @Enable*注解的工作原理 .... .............. 63 <br>
 VIII ∣ Java EE 开发的颠覆者：Spring Boot 实战 <br>
 3.7 测试 .... .... ............. 66 <br>
-第二部分 点睛Spring MVC 4.x <br>
+第二部分 点睛Spring MVC 4.x <br><br>
 第4 章 Spring MVC 基础 .... .......................... 72 <br>
-第三部分 实战Spring Boot <br>
+第三部分 实战Spring Boot <br><br>
 第5 章 Spring Boot 基础 .... ......................... 122 <br>
 第6 章 Spring Boot 核心 .... ......................... 138 <br>
 X ∣ Java EE 开发的颠覆者：Spring Boot 实战 <br>
