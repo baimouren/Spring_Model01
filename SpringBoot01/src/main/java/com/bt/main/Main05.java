@@ -9,17 +9,17 @@ public class Main05 {
 
     public static void main(String[] args) {
 
-        /* Profile Îª²»Í¬»·¾³ÏÂÊ¹ÓÃ²»Í¬µÄÅäÖÃÌá¹©ÁËÖ§³Ö(¿ª·¢»·¾³ÏÂµÄÅäÖÃºÍÉú²ú»·¾³ÏÂµÄÅäÖÃ¿Ï¶¨ÊÇ²»Í¬µÄ£¬Èç£ºÊı¾İ¿âÅäÖÃ)
-         * 1.Í¨¹ıÉè¶¨EnviromentµÄActiveProfileÀ´Éè¶¨µ±Ç°µÄcontextĞèÒªÊ¹ÓÃµÄÅäÖÃ»·¾³¡£ÔÚ¿ª·¢ÖĞÊ¹ÓÃ@Profile×¢½âÀà»òÕß·½·¨£¬´ïµ½²»Í¬µÄÇé¿öÏÂÊµÀı»¯²»Í¬Bean
-         * 2.Í¨¹ıjvmµÄspring.profile.active ²ÎÊıÀ´ÉèÖÃÅäÖÃ»·¾³
-         * 3.WebÏîÄ¿ÉèÖÃÔÚServletµÄcontext parameterÖĞ */
+        /* Profile ä¸ºä¸åŒç¯å¢ƒä¸‹ä½¿ç”¨ä¸åŒçš„é…ç½®æä¾›äº†æ”¯æŒ(å¼€å‘ç¯å¢ƒä¸‹çš„é…ç½®å’Œç”Ÿäº§ç¯å¢ƒä¸‹çš„é…ç½®è‚¯å®šæ˜¯ä¸åŒçš„ï¼Œå¦‚ï¼šæ•°æ®åº“é…ç½®)
+         * 1.é€šè¿‡è®¾å®šEnviromentçš„ActiveProfileæ¥è®¾å®šå½“å‰çš„contextéœ€è¦ä½¿ç”¨çš„é…ç½®ç¯å¢ƒã€‚åœ¨å¼€å‘ä¸­ä½¿ç”¨@Profileæ³¨è§£ç±»æˆ–è€…æ–¹æ³•ï¼Œè¾¾åˆ°ä¸åŒçš„æƒ…å†µä¸‹å®ä¾‹åŒ–ä¸åŒBean
+         * 2.é€šè¿‡jvmçš„spring.profile.active å‚æ•°æ¥è®¾ç½®é…ç½®ç¯å¢ƒ
+         * 3.Webé¡¹ç›®è®¾ç½®åœ¨Servletçš„context parameterä¸­ */
 
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
-        // ½«»î¶¯ProfileÉèÖÃÎªpro / dev
+        // å°†æ´»åŠ¨Profileè®¾ç½®ä¸ºpro / dev
         context.getEnvironment().setActiveProfiles("dev");
-        // ×¢²áBeanÅäÖÃÀà£¬·ñÔò»á±¨BeanÎ´×¢²áÒì³£
+        // æ³¨å†ŒBeané…ç½®ç±»ï¼Œå¦åˆ™ä¼šæŠ¥Beanæœªæ³¨å†Œå¼‚å¸¸
         context.register(ProfileConfig.class);
-        // Ë¢ĞÂÈİÆ÷
+        // åˆ·æ–°å®¹å™¨
         context.refresh();
 
         DemoBean demoBean = context.getBean(DemoBean.class);
