@@ -3,15 +3,15 @@ package com.bt.event;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 
-//ÊµÏÖ ApplicationListener ½Ó¿Ú£¬Ö¸¶¨¼àÌıÊÂ¼şÀàĞÍ DemoEvent
+//å®ç° ApplicationListener æ¥å£ï¼ŒæŒ‡å®šç›‘å¬äº‹ä»¶ç±»å‹ DemoEvent
 @Component
 public class DemoListener implements ApplicationListener<DemoEvent> {
 
-    // ´¦ÀíÏûÏ¢´¦Àí
+    // å¤„ç†æ¶ˆæ¯å¤„ç†
     @Override
     public void onApplicationEvent(DemoEvent event) {
         String msg = event.getMsg();
-        System.out.println("ÎÒ£¨DemoListener£©½ÓÊÜµ½£¨bean-demoPulisher£©·¢²¼µÄÏûÏ¢£º" + msg);
+        System.out.println("æˆ‘ï¼ˆDemoListenerï¼‰æ¥å—åˆ°ï¼ˆbean-demoPulisherï¼‰å‘å¸ƒçš„æ¶ˆæ¯ï¼š" + msg);
     }
 
 }

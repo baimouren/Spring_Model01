@@ -6,12 +6,12 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class DemoPublisher {
-    // ×¢ÈëApplicationContext£¬ÓÃÀ´·¢²¼ÊÂ¼ş
+    // æ³¨å…¥ApplicationContextï¼Œç”¨æ¥å‘å¸ƒäº‹ä»¶
     @Autowired
     ApplicationContext applicationContext;
 
     public void publish(String msg) {
-        // publishEvent() ·¢²¼ÊÂ¼ş
+        // publishEvent() å‘å¸ƒäº‹ä»¶
         applicationContext.publishEvent(new DemoEvent(this, msg));
 
     }

@@ -5,6 +5,7 @@ import org.springframework.context.ApplicationEvent;
 public class DemoEvent extends ApplicationEvent {
 
     private static final long serialVersionUID = 1L;
+
     private String msg;
 
     public DemoEvent(Object source, String msg) {
