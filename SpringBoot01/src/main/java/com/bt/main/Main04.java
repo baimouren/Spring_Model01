@@ -8,7 +8,7 @@ import com.bt.service.service04.JSR250WayService;
 
 public class Main04 {
     public static void main(String[] args) {
-        // 2.3 BeanµÄ³õÊ¼»¯ºÍÏú»Ù
+        // 2.3 实例化 注解配置应用环境
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(PrePostConfig.class);
 
         BeanWayService beanWayService = context.getBean(BeanWayService.class);
