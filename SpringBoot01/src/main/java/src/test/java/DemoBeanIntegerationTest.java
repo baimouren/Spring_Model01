@@ -15,7 +15,7 @@ import junit.framework.Assert;
 @RunWith(SpringJUnit4ClassRunner.class) // SpringJUnit4ClassRunner 在junit环境下提供Spring TestContext Framwork功能
 @ContextConfiguration(
     classes = { TestConfig.class }) // 加载AppicationContext
-@ActiveProfiles("dev") // 声明活动的prod
+@ActiveProfiles("dev") // 声明活动的prod/dev
 public class DemoBeanIntegerationTest {
 
     // 注入Bean
