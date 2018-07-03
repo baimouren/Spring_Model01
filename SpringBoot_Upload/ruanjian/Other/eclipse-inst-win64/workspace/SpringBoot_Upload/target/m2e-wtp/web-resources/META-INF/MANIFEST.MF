@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBoot_Upload
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: 程彬
+Implementation-Vendor-Id: com.up
+Build-Jdk: 1.8.0_141
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/SpringBoot_Upload
+Created-By: Maven Integration for Eclipse
+
