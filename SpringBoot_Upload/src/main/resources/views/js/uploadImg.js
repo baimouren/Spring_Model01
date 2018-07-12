@@ -21,6 +21,7 @@ function imgUpload(obj) {
 			imgSrc.push(imgSrcI);
 			//在文件流数组的末尾添加文件
 			imgFile.push(fileList[i]);
+			
 		}
 		//将图片展示出去
 		addNewContent(imgBox);
@@ -111,6 +112,8 @@ function getObjectURL(file) {
 		url = window.createObjectURL(file);
 	} else if(window.URL != undefined) { // mozilla(firefox)
 		url = window.URL.createObjectURL(file);
+		console.log('URL:');
+		console.log(url);
 	} else if(window.webkitURL != undefined) { // webkit or chrome
 		url = window.webkitURL.createObjectURL(file);
 	}
