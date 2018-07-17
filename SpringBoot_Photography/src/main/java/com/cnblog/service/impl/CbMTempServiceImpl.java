@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.cnblog.mapper.CbMTempMapper;
-import com.cnblog.module.CbMTempModule;
+import com.cnblog.model.CbMTempModule;
 import com.cnblog.service.ICbMTempService;
 
 @Service("CbMTempService")

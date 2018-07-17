@@ -2,7 +2,7 @@ package com.cnblog.service;
 
 import java.util.List;
 
-import com.cnblog.module.CbMTempModule;
+import com.cnblog.model.CbMTempModule;
 
 public interface ICbMTempService {
     public List<CbMTempModule> selectAll();

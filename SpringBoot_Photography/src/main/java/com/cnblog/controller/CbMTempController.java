@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cnblog.module.CbMTempModule;
+import com.cnblog.model.CbMTempModule;
 import com.cnblog.service.ICbMTempService;
 
 @RequestMapping

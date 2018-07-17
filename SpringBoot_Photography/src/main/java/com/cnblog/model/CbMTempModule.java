@@ -1,4 +1,4 @@
-package com.cnblog.module;
+package com.cnblog.model;
 
 public class CbMTempModule {
     private int rowId;
