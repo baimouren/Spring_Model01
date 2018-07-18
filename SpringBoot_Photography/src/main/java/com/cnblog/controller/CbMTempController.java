@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cnblog.model.CbMTempModule;
+import com.cnblog.model.CbMTempModel;
 import com.cnblog.service.ICbMTempService;
 
 @RequestMapping
@@ -17,8 +17,8 @@ public class CbMTempController {
     private ICbMTempService CbMTempService;
 
     @RequestMapping("/search")
-    public List<CbMTempModule> searchCbmTemp() {
-        List<CbMTempModule> selectAll = CbMTempService.selectAll();
+    public List<CbMTempModel> searchCbmTemp() {
+        List<CbMTempModel> selectAll = CbMTempService.selectAll();
         return selectAll;
     }
 }

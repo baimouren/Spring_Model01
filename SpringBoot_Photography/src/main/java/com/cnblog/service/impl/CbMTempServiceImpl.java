@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.cnblog.mapper.CbMTempMapper;
-import com.cnblog.model.CbMTempModule;
+import com.cnblog.model.CbMTempModel;
 import com.cnblog.service.ICbMTempService;
 
 @Service("CbMTempService")
@@ -16,8 +16,8 @@ public class CbMTempServiceImpl implements ICbMTempService {
     private CbMTempMapper cbMTempMapper;
 
     @Override
-    public List<CbMTempModule> selectAll() {
-        List<CbMTempModule> selectAll = cbMTempMapper.selectAll();
+    public List<CbMTempModel> selectAll() {
+        List<CbMTempModel> selectAll = cbMTempMapper.selectAll();
         return selectAll;
     }
 

@@ -1,6 +1,6 @@
 package com.cnblog.model;
 
-public class CbMTempModule {
+public class CbMTempModel {
     private int rowId;
 
     private String info;
@@ -33,7 +33,7 @@ public class CbMTempModule {
 
     @Override
     public String toString() {
-        return "CbMTempModule [rowId=" + rowId + ", info=" + info + ", notes=" + notes + "]";
+        return "CbMTempModel [rowId=" + rowId + ", info=" + info + ", notes=" + notes + "]";
     }
 
 }
